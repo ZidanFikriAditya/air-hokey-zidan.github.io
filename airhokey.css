@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(70, 70, 70);
+}
+
+#field{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#reset
+{
+    position: relative;
+    overflow: none;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 20%;
+    padding: 10px;
+}
+
+#reset:hover
+{
+    background-color: white;
+    color: black;
+    transition-duration: 750ms;
+}
+
+#audio {
+    background: brown;
+    color: white;
+    padding: 15px;
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    border-radius: 5px;
+}
